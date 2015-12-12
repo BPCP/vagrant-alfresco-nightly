@@ -6,9 +6,9 @@ Creates a linux VM with vagrant, downloads, installs and runs the lastest Alfres
 VM
 ---
 - Uses Vagrant Vitualbox provider
-- Creates a VM based on Ubuntu Trusty 64bit
-- VM with 4 CPUs, 4GB of memory
-- Downloads latest alfresco nightly community build from http://dev.alfresco.com/downloads/nightly/dist/
+- Creates a VM based on Ubuntu Wily 64bit
+- VM with 8 CPUs, 6GB of memory
+- Downloads latest alfresco nightly community build from https://alf-community-nightly.s3-eu-west-1.amazonaws.com/Community
 - Alfresco is exposed to **local port 8080**
 
 Alfresco Setup
