@@ -10,8 +10,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "shell", path: "setup.sh"
 	
   config.vm.provider "virtualbox" do |vb|
-     vb.customize ["modifyvm", :id, "--memory", "6144"]
-	 vb.customize ["modifyvm", :id, "--cpus", "8"]  
+     vb.customize ["modifyvm", :id, "--memory", "4048"]
+	 vb.customize ["modifyvm", :id, "--cpus", "2"]  
      vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
      vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]            
      vb.customize ["modifyvm", :id, "--nictype1", "virtio"]
